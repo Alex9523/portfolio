@@ -1,0 +1,306 @@
+body{
+    background-color: #e4e4e0;
+}
+
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content: space-around; 
+    background-color: ivory;
+    
+}
+
+h1{
+    font-size: 4rem;
+    font-family: Helvetica;
+}
+
+.for-why{
+    margin-top: 100px;
+}
+
+.title{
+    margin: 50px 50px;
+}
+
+.intro-me{
+    display: flex;
+    justify-content: center;
+}
+
+.picmain{
+    padding: 30px 35px;
+    z-index: 1;
+    width: 550px;
+    height: 800px;
+    background-color: #0d171c;
+}
+
+.intro-me div,
+.intro-me img{
+    position: relative;
+}
+
+.pictop{
+    top:200px;
+    left: 180px;
+    width: 350px;
+    height: 470px;
+}
+
+.picbot{
+    top:-100px;
+    left: -100px;
+    width: 350px;
+    height: 470px;
+}
+
+
+.heading-blue{
+    font-family: monospace;
+    color: #37b6c5;
+}
+
+.heading-violet{
+    font-family: monospace;
+    color: #f059c1;
+}
+
+.heading-orange{
+    font-family: monospace;
+    color: #c15d47;
+}
+
+.heading-yellow{
+    font-family: monospace;
+    color: #f2cd4e;
+}
+
+p{
+    padding: 0 25px;
+    line-height: 1.95;
+    font-family:  monospace;
+    font-size: 1rem;
+}
+
+.picmain p{
+    color: white;
+}
+
+.first-advantage p,
+.firth-advantage p{
+    color: white;
+}
+
+.second-advantage p{
+    color: #bda7c1;
+}
+
+.third-advantage p{
+    color: #cbc192;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    font-size: .75rem;
+    border-width: 0;
+    color: rgb(82, 49, 49);
+}
+
+a:hover{
+    color: #276272;
+}
+
+
+.first-advantage,
+.second-advantage,
+.third-advantage,
+.firth-advantage{
+    position: relative;
+    width:250px;
+    height: 250px;
+    padding: 30px 35px;
+    margin-left: 100px;
+}
+
+
+.first-advantage{
+    background-color: #0d171c;
+}
+
+.second-advantage{
+    background-color: #050814;
+    z-index: 1; 
+    margin-top: -270px;
+    margin-left: 300px;
+}
+
+.third-advantage{
+    background-color: #21201c;
+    z-index: 1;
+    margin-top: -130px;
+    margin-left: 500px;
+}
+
+.violet-machine{
+    z-index: -2;
+    width:350px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+.yellow-machine{
+    width:300px;
+    height: 300px;
+    z-index: -2;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+
+.firth-advantage{
+    background-color: black;
+    z-index: 1;
+    margin-top: -320px;
+    margin-left: 680px;
+} 
+
+.intro-why{
+    text-align: right;
+}
+
+.list-of-projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #cbc192;
+}
+
+.projects{
+    margin: 100px;
+}
+
+.project{
+    border: 1px solid #c15d47;
+    margin: 20px;
+    width: 270px;
+    padding: 30px 35px;
+}
+
+
+.projects p{
+    color: #21201c;
+} 
+
+
+
+/* button */
+
+.button-parent {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .button-parent--inner {
+    padding: 5px 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    color: #4A4A4A;
+    display: inline-block;
+  }
+  
+  
+  
+  .btn-3 {
+    padding: 1em 2em;
+    border: 1px solid #c15d47;
+    transition: all 300ms ease;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  span {
+    position: relative;
+    z-index: 1;
+    padding: 0em 0.2em;
+  }
+  
+  span:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    height: 50%;
+    width: 0%;
+    background: #c15d47;
+    z-index: -2;
+    transition: all 300ms ease;
+  }
+  
+  .btn-3:hover {
+    color: #050814;
+    box-shadow: none;
+  }
+  
+  .btn-3:hover span:before {
+    content: '';
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  /* button*/
+  
+  
+  /* Education */
+
+  .education{
+    margin: 100px;
+  }
+
+  .education h1{
+      text-align: right;
+  }
+
+  .download {
+      width: 600px;
+      background-color: black;
+      color: #afafaf;
+      padding: 0 25px;
+    line-height: 1.95;
+    font-family:  monospace;
+    font-size: 1rem;
+  }
+
+  .heading-light-violet{
+      color: #ad9be7;
+  }
+
+  .contact-info{
+    background-color: black;
+    color: #afafaf;
+  }
+  
+  
+
+
+
+
+  
+
+
+
+
+
+    
+  
