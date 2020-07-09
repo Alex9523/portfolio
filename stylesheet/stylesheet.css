@@ -123,8 +123,8 @@ a:hover{
 .third-advantage,
 .firth-advantage{
     position: relative;
-    width:250px;
-    height: 250px;
+    width:350px;
+    height: 300px;
     padding: 30px 35px;
     margin-left: 100px;
 }
@@ -137,22 +137,22 @@ a:hover{
 .second-advantage{
     background-color: #050814;
     z-index: 1; 
-    margin-top: -270px;
-    margin-left: 300px;
+    margin-top: -250px;
+    margin-left: 320px;
 }
 
 .third-advantage{
     background-color: #21201c;
     z-index: 1;
     margin-top: -130px;
-    margin-left: 500px;
+    margin-left: 550px;
 }
 
 .violet-machine{
     z-index: -2;
     width:350px;
     height: 350px;
-    margin-left: 600px;
+    margin-left: 650px;
     margin-top: -200px;
 }
 
@@ -168,7 +168,7 @@ a:hover{
     background-color: black;
     z-index: 1;
     margin-top: -320px;
-    margin-left: 680px;
+    margin-left: 770px;
 } 
 
 .intro-why{
@@ -190,7 +190,7 @@ a:hover{
 .project{
     border: 1px solid #c15d47;
     margin: 20px;
-    width: 270px;
+    width: 300px;
     padding: 30px 35px;
 }
 
@@ -273,10 +273,10 @@ a:hover{
   }
 
   .download {
-      width: 600px;
-      background-color: black;
-      color: #afafaf;
-      padding: 0 25px;
+    width: 600px;
+    background-color: black;
+    color: #afafaf;
+    padding: 0 25px;
     line-height: 1.95;
     font-family:  monospace;
     font-size: 1rem;
