@@ -57,29 +57,29 @@ h1{
 
 
 .heading-blue{
-    font-family: monospace;
+    font-family:   monospace;
     color: #37b6c5;
 }
 
 .heading-violet{
-    font-family: monospace;
+    font-family:   monospace;
     color: #f059c1;
 }
 
 .heading-orange{
-    font-family: monospace;
+    font-family:   monospace;
     color: #c15d47;
 }
 
 .heading-yellow{
-    font-family: monospace;
+    font-family:  'PT Mono', monospace;
     color: #f2cd4e;
 }
 
 p{
     padding: 0 25px;
     line-height: 1.95;
-    font-family:  monospace;
+    font-family:    monospace;
     font-size: 1rem;
 }
 
@@ -278,7 +278,7 @@ a:hover{
     color: #afafaf;
     padding: 0 25px;
     line-height: 1.95;
-    font-family:  monospace;
+    font-family:    monospace;
     font-size: 1rem;
   }
 
